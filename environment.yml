@@ -1,0 +1,12 @@
+name: gradio_translator
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gradio
+  - langdetect
+  - pip
+  - pip:
+      - langchain-community
+      - langchain-core
+      - langchain-ollama
