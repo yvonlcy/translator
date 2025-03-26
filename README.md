@@ -39,7 +39,7 @@ ollama pull mixtral
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/translator.git
+   git clone https://github.com/yvonlcy/translator.git
    cd translator
    ```
 
@@ -57,7 +57,7 @@ ollama pull mixtral
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/translator.git
+   git clone https://github.com/yvonlcy/translator.git
    cd translator
    ```
 
