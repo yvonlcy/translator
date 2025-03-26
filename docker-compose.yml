@@ -1,6 +1,6 @@
 services:
   translator:
-    image: translator:latest
+    image: gitlab.kryedu.org:5050/ai-developer/translator:latest
     container_name: translator
     restart: unless-stopped
     tty: true
