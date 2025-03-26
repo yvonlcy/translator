@@ -1,6 +1,6 @@
 services:
   translator:
-    image: username/translator:latest   # 修改為您的映像地址
+    image: username/translator:latest   # Change to your image address
     container_name: translator
     restart: unless-stopped
     tty: true
@@ -8,14 +8,14 @@ services:
     environment:
       - GRADIO_SERVER_NAME=0.0.0.0
       - GRADIO_SERVER_PORT=7861
-      - GRADIO_ROOT_PATH=/translator    # 可根據您的部署路徑調整
+      - GRADIO_ROOT_PATH=/translator    # Adjust according to your deployment path
       - PYTHONUNBUFFERED=1
-      - OLLAMA_BASE_URL=http://ollama:11434  # 修改為您的 Ollama 服務地址
+      - OLLAMA_BASE_URL=http://ollama:11434  # Change to your Ollama service address
     volumes:
-      - ~/docker/translator/log:/app/log        # 修改為您的本地路徑
-      - ~/docker/translator/outputs:/app/outputs  # 修改為您的本地路徑
-      - ~/docker/translator/cache:/root/.cache    # 修改為您的本地路徑
-    # 如果使用 Traefik，請取消以下注釋並調整值
+      - ~/docker/translator/log:/app/log        # Change to your local path
+      - ~/docker/translator/outputs:/app/outputs  # Change to your local path
+      - ~/docker/translator/cache:/root/.cache    # Change to your local path
+    # If using Traefik, uncomment below and adjust values
     labels:
       - traefik.enable=true
       - traefik.http.routers.translator.rule=PathPrefix(`/translator`)
@@ -27,7 +27,7 @@ services:
     networks:
       - traefik
 
-# 如果使用 Traefik，取消以下注釋
+# If using Traefik, uncomment below
 networks:
   traefik:
     external: true
