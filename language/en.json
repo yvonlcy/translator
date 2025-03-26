@@ -1,0 +1,15 @@
+{
+    "Title": "AI Translator",
+    "Description": "Translate text between languages using AI.",
+    "SourceLanguage": "Source",
+    "TargetLanguage": "Target",
+    "InputText": "Input Text",
+    "OutputText": "Output Text",
+    "InputPlaceholder": "Enter text here...",
+    "OutputPlaceholder": "Translation will appear here...",
+    "Translate": "Translate",
+    "Clear": "Clear",
+    "Copy": "Copy",
+    "Swap": "Swap",
+    "Detected": "Detected"
+}

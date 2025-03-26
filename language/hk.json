@@ -1,0 +1,15 @@
+{
+    "Title": "AI 翻譯工具",
+    "Description": "使用人工智能喺唔同語言之間翻譯文本。",
+    "SourceLanguage": "源語言",
+    "TargetLanguage": "目標語言",
+    "InputText": "輸入文本",
+    "OutputText": "輸出文本",
+    "InputPlaceholder": "喺呢度輸入文本...",
+    "OutputPlaceholder": "翻譯結果會顯示喺呢度...",
+    "Translate": "翻譯",
+    "Clear": "清除",
+    "Copy": "複製",
+    "Swap": "交換",
+    "Detected": "偵測到"
+}

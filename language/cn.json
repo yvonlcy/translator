@@ -1,0 +1,15 @@
+{
+    "Title": "AI 翻译器",
+    "Description": "使用人工智能在不同语言之间翻译文本。",
+    "SourceLanguage": "源语言",
+    "TargetLanguage": "目标语言",
+    "InputText": "输入文本",
+    "OutputText": "输出文本",
+    "InputPlaceholder": "在此输入文本...",
+    "OutputPlaceholder": "翻译结果将显示在这里...",
+    "Translate": "翻译",
+    "Clear": "清除",
+    "Copy": "复制",
+    "Swap": "交换",
+    "Detected": "检测到"
+}
